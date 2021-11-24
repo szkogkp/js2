@@ -1,0 +1,28 @@
+header{
+    background-color: red;
+    display: flex;
+    justify-content: right;
+    padding: 10px; 
+}
+
+.goods-list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.goods-item{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button{
+    background-color: white;
+    border-radius: 10%;
+}
+
+.cart-button:hover{
+    transform: scale(1.1);
+}
