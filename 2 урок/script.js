@@ -100,7 +100,7 @@ class Hamburger {
         break;
       default:
         console.log('Неверная база');
-        break;
+        return;
     }
 
     switch (this.filling) {
@@ -118,7 +118,7 @@ class Hamburger {
         break;
       default:
         console.log('Неверная начинка');
-        break;
+        return;
     }
 
     if (this.seasoning) {
