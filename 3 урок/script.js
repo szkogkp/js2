@@ -143,5 +143,21 @@ then(() => {
     console.log(err.text)
   })
 
+//корзина
 
+
+let cartArr = [];
+class Cart {
+  add() {
+    cartArr.push()
+  }
+
+  remove(index) {
+    cardArr.splice(index, 1);
+  }
+
+  getGoods() {
+    console.log(cartArr);
+  }
+}
 
