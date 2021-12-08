@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="paragraph">'How old are you?' the man asked. 'The little boy, at the eternal question, looked at the man
+        suspiciously for a minute and then said, 'Twenty-six. Eight hunnerd and forty eighty.' His mother lifted her
+        head from the book. 'Four,' she said, smiling fondly at the little boy. 'Is that so?' the man said politely to
+        the little boy. 'Twenty-six.' He nodded his head at the mother across the aisle. 'Is that your mother?' The
+        little boy leaned forward to look and then said, 'Yes, that's her.' 'What's your name?' the man asked. The
+        little boy looked suspicious again. 'Mr. Jesus,' he said. (Shirley Jackson, 'The Witch.' The Lottery and Other
+        Stories. Farrar, Straus and Giroux, 1949)</p>
+    <script>
+        'use strict';
+
+        let paragraph = document.querySelector('.paragraph');
+
+
+        paragraph.textContent = paragraph.textContent.replace(/\B'|'\B/g, '"');
+    </script>
+</body>
+
+</html>
